@@ -1,1 +1,9 @@
+Q2.
+An outlier is a value or point that differs substantially from the rest of the data. It lies an abnormal distance from other values in a random sample from a population or from the least-squares line.Outliers can indicate variabilities, errors, or novelties and provide insights into special cases and  They can skew statistical measures and data distributions, leading to misleading results
 
+Q3.
+Percentile Method: This method identifies outliers in a dataset by comparing each observation to the rest of the data using percentiles.
+
+Interquartile Range (IQR) Method: The IQR is a measure of the dispersion of a dataset. An outlier has to satisfy either of the following two conditions. The rule for a low outlier is that a data point in a dataset has to be less than Q1 - 1.5xIQR. This means that a data point needs to fall more than 1.5 times the Interquartile range below the first quartile to be considered a low outlier.
+
+Z-Score Method: For a given value, the respective z-score represents its distance in terms of the standard deviation1. When the data, or certain features in the dataset, follow a normal distribution, you can use the standard deviation of the data, or the equivalent z-score to detect outliers. One approach to outlier detection is to set the lower limit to three standard deviations below the mean (μ - 3σ), and the upper limit to three standard deviations above the mean (μ + 3σ). Any data point that falls outside this range is detected as an outlier.
